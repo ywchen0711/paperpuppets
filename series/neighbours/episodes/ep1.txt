@@ -1,0 +1,61 @@
+title: 卡在樹上的風箏 | The Kite in the Tree
+
+== park day | 公園・午後
+[leo enters left to 0.42 running holding kite]
+leo (excited): 飛起來！快飛起來呀！ | Fly! Come on, fly!
+[kite to tree]
+leo (surprised): 啊！不要啊—— | Oh no! Nooo—
+[leo runs to 0.55]
+[leo looks at kite]
+leo (sad): 我的風箏……卡在樹上了。 | My kite... it's stuck in the tree.
+[leo jumps]
+[leo jumps]
+leo (sad): 嗚……太高了。 | Ugh... it's too high.
+[mia enters right to 0.8]
+mia (thinking): 你在做什麼？在跳舞嗎？ | What are you doing? Dancing?
+[leo faces mia]
+leo (shy): 不、不是啦……我的風箏飛到樹上去了。 | N-no... my kite flew up into the tree.
+[mia looks at kite]
+mia (surprised): 哇，好高喔！ | Whoa, that's high!
+[mia walks to 0.74]
+mia (happy): 我叫小米，就住在那邊。你是新搬來的嗎？ | I'm Mia, I live right over there. Are you new here?
+leo (shy): 嗯，我叫阿樂，昨天才搬來。 | Yeah. I'm Leo. We just moved in yesterday.
+mia (excited): 好！阿樂，我們一起把它拿下來！ | OK, Leo! Let's get it down together!
+[mia walks to 0.7]
+[mia jumps]
+[mia jumps]
+mia (sad): 差一點點……還是搆不到。 | So close... still can't reach.
+leo (thinking): 如果有一根長長的東西就好了。 | If only we had something long.
+[grandma enters right to 0.86 holding cane]
+grandma (happy): 小米——吃點心囉！ | Mia! Snack time!
+mia (surprised): 奶奶！ | Grandma!
+[mia runs to 0.76]
+mia (happy): 奶奶，你的拐杖借我們用一下好不好？ | Grandma, can we borrow your walking stick?
+grandma (thinking): 拐杖？你們要做什麼呀？ | My stick? Whatever for?
+[mia points at kite]
+leo (shy): 我的風箏卡在樹上了…… | My kite's stuck in the tree...
+grandma (laugh): 呵呵，這個簡單，交給奶奶。 | Ho ho, that's easy. Leave it to Grandma.
+[grandma walks to 0.7]
+[grandma reaches up]
+[kite falls to 0.6]
+leo (excited): 下來了！ | It came down!
+[leo holds kite]
+mia (laugh): 奶奶好厲害！ | Grandma, you're amazing!
+[leo bows]
+leo (happy): 謝謝奶奶！ | Thank you, Grandma!
+grandma (happy): 不客氣。先去吃塊餅乾，等一下再去放風箏。 | You're welcome. Have a cookie first, then go fly it.
+[mia walks to 0.24; leo walks to 0.33]
+[mia sits; leo sits]
+mia (happy): 阿樂，明天也一起玩吧！ | Leo, let's play again tomorrow!
+leo (excited): 嗯！一言為定！ | Yeah! It's a deal!
+
+== park evening | 公園・黃昏
+[leo enters left to 0.35 running holding kite]
+[kite flies]
+[mia enters left to 0.5 running]
+mia (laugh): 飛起來了！飛得好高喔！ | It's flying! It's so high!
+[leo faces mia]
+leo (happy): 這是我搬來以後，最開心的一天。 | This is the happiest day since we moved here.
+mia (happy): 以後每天都會很開心的！ | Every day's going to be happy from now on!
+[mia cheers; leo cheers]
+narrator: 新的鄰居，新的朋友。明天，又會有什麼故事呢？ | A new neighbour, a new friend. What story will tomorrow bring?

@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>紙偶小劇場・角色</title><style>body{margin:0;background:#f4ecdf;font-family:system-ui}canvas{display:block;width:100vw;height:auto}</style></head><body>
+<canvas id="c" width="1600" height="900"></canvas>
+<script type="module">
+// every character of the series, standing, and in a few poses: to look at the puppets
+import { drawPuppet, makePose } from './js/rig.js';
+import { SERIES } from './series/neighbours/series.js';
+const c = document.getElementById('c'), g = c.getContext('2d');
+g.fillStyle = '#f4ecdf'; g.fillRect(0, 0, c.width, c.height);
+const S = 260; // pixels per metre
+g.setTransform(S, 0, 0, -S, 60, c.height - 80);
+g.fillStyle = '#e0d2bc'; g.fillRect(-1, -0.3, 10, 0.3);
+const ids = Object.keys(SERIES.cast).filter((k) => SERIES.cast[k].kind !== 'voice'); let x = 0.6;
+const poses = [(p) => p, (p) => { p.armF = { sh: 2.6, el: 0.3, hand: 'open' }; p.face.mouth = { open: 0.6, wide: 0.6, round: 0, smile: 0.7 }; p.face.happyEyes = 1; p.face.blush = 0.6; return p; },
+  (p) => { p.lean = 0.12; p.armF = { sh: 1.4, el: 0.1, hand: 'point' }; p.face.brow = -0.6; p.face.browIn = 1; p.face.mouth = { open: 0.35, wide: 0.5, round: 0, smile: -0.6 }; return p; },
+  (p) => { p.face.eyes = 1.25; p.face.brow = 1; p.face.mouth = { open: 0.7, wide: 0.1, round: 1, smile: 0 }; p.armF = { sh: 0.9, el: 1.6, hand: 'open' }; p.armB = { sh: 0.9, el: 1.6, hand: 'open' }; return p; }];
+for (const id of ids) {
+  for (let k = 0; k < (ids.length > 3 ? 2 : 4); k++) { const p = poses[k % poses.length](makePose(x, k % 2 ? -1 : 1)); drawPuppet(g, SERIES.cast[id], p); x += 0.75; }
+  x += 0.2;
+}
+window.DONE = true;
+</script></body></html>
